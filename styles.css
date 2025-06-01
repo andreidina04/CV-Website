@@ -266,4 +266,16 @@ li::marker {
     height: auto;      
     margin: 20px auto;
   }
+  .skills {
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 20px;
+  }
+  .skill-bar {
+    width: 100%; 
+    max-width: 100%;
+  }
+  .skill-fill, .skill-fill2 {
+    width: 100%; 
+  }
 }
