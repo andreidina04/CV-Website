@@ -11,7 +11,7 @@ body {
 position: relative;
     position: relative;
     width: 100%;
-    max-width: 1000px;
+    max-width: 100%;
     min-width: 1000px;
     height: 236vh;
     margin: 50px auto;
@@ -25,6 +25,10 @@ position: relative;
     width: 100%;
     position: relative;
     background: linear-gradient(90deg,rgba(56, 56, 105, 1) 0%, rgba(98, 98, 191, 1) 55%, rgba(56, 56, 105, 1) 100%);
+}
+img, video, iframe {
+  max-width: 100%;
+  height: auto;
 }
 
 .name {
@@ -264,4 +268,10 @@ li::marker {
     justify-content: center;
     align-items: center;
     display: flex;
+}
+
+@media (max-width: 600px) {
+  .container {
+    display: block; 
+  }
 }
