@@ -13,7 +13,7 @@ window.addEventListener('DOMContentLoaded', () => {
       charIndex++;
       if (charIndex === currentText.length) {
         deleting = true;
-        setTimeout(typeLoop, 1500); // Pauză la finalul cuvântului
+        setTimeout(typeLoop, 1500); 
         return;
       }
     } else {
@@ -21,11 +21,11 @@ window.addEventListener('DOMContentLoaded', () => {
       charIndex--;
       if (charIndex === 0) {
         deleting = false;
-        textIndex = (textIndex + 1) % texts.length; // Trecem la următorul text
+        textIndex = (textIndex + 1) % texts.length;
       }
     }
 
-    setTimeout(typeLoop, 100); // Viteză scriere/ștergere
+    setTimeout(typeLoop, 100); 
   }
 
   typeLoop();
