@@ -271,6 +271,8 @@ li::marker {
 
 @media (max-width: 600px) {
   .container {
-    display: block; 
+    min-width: auto;
+    width: 100%;
+    margin: 20px auto;
+    height: auto; 
   }
-}
