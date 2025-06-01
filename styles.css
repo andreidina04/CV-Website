@@ -4,6 +4,8 @@ body {
     align-items: center;
     min-height: 100vh;
     background: #444454;
+    max-width: 100%;
+    height: auto;
 }
 .container {
 position: relative;
